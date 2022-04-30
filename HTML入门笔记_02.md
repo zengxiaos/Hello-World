@@ -8,7 +8,7 @@
 2. [img 标签的用法?](#jump2)
 3. [table 标签的用法?](#jump3)
 4. [form 标签的用法?](#jump4)
-5. [input 标签的用法?<](#jump5)
+5. [input 标签的用法?](#jump5)
 6. [其他感想?](#jump6)
 
 ## 开始吧
