@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      .heart {
+        display: inline-block;
+        animation: xxx 0.5s linear infinite;
+        position: relative;
+        padding: 100px;
+      }
+      @keyframes xxx {
+        0% {
+          transform: none;
+        }
+        100% {
+          transform: scale(1.3);
+        }
+      }
+      .heart .left {
+        width: 40px;
+        height: 40px;
+        float: left;
+        position: absolute;
+        transform: rotate(45deg) translateX(-20px);
+        border-radius: 50% 0 0 50%;
+        background-color: red;
+      }
+      .heart .right {
+        width: 40px;
+        height: 40px;
+        float: left;
+        position: absolute;
+        transform: rotate(-45deg) translateX(20px);
+        border-radius: 0 50% 50% 0;
+        background-color: red;
+      }
+
+      .heart .bottom {
+        width: 40px;
+        height: 40px;
+        float: left;
+        position: absolute;
+        transform: rotate(-45deg);
+        background-color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="heart">
+      <div class="left"></div>
+      <div class="right"></div>
+      <div class="bottom"></div>
+    </div>
+  </body>
+</html>
